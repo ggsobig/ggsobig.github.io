@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title >Genshin Impact</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    
+    <title>Website</title>
+  </head>
+  <body>
+<!--  Navigation Bar    -->
+    <nav id="navigation" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" style ="margin-top: 30px;">原神</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarButtons" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarButtons">          
+          <ul class="nav navbar-nav navbar-right">
+            <li id="navAbout" class="btn navbar-btn navActive">遊戲介紹</li>
+            <li id="navServices" class="btn navbar-btn">角色介紹</li>
+            <li id="navContact" class="btn navbar-btn">聯絡我們</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!--  Top page image    -->
+ <div class="parallaxTop">
+   <div class="jumboBanner shadow">
+     <h1 class="banner"></h1>
+     <h1 class="motto" style ="font-size: 200px; -webkit-text-stroke: 10px rgb(145, 31, 3); font-weight: 900">Genshin Impact</h1>
+   </div>
+ </div>
+<!--  Main content   -->    
+<!--  About row      -->
+    <div id="aboutBlock" class="container" style="background-color: rgba(146, 71, 0, 0)" style="width: 600px;">
+      <div id="aboutRow" class="row" style="text-align: center;">
+        <div class="aboutLeft col-xs-12 col-sm-6 cloak">
+          <div class="row">
+            <img src="pic.jpg" style="width: 400px;height: 400px; "style="   style=" padding-left: 800px;">
+          </div>
+        </div>
+        <div class="aboutRight col-xs-12 col-sm-6">
+          <div class="row">
+            <div class="col-md-9">
+            <div style="color: seashell;">            
+              <h1 style="font-weight: 900;">遊戲介紹</h1>
+              <h3 style="line-height:50px">原神是一款開放世界的動作角色扮演遊戲，玩家一次可以選擇四名角色參與戰鬥，並且在戰鬥中可以快速切換。 角色可以通過各種方式增強他們的力量，例如提高角色的等級，改進角色裝備的聖遺物和武器。 除了探索之外，玩家還可以嘗試各種挑戰以獲得獎勵。</h3>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-3"></div>          
+        </div>
+      </div>
+    </div>
+<!--  Services row      -->
+    <div id="servicesRow" class="parallaxSection" style="text-align: center;">
+      <div class="shadowSection">
+        <h2 style="font-weight: 900; font-size: 80px; margin-top: 3px; -webkit-text-stroke: 3px rgb(145, 31, 3)">角色介紹</h2>
+      </div>
+    </div>
+    <div id="serviceBlocks " class="row">
+      <div class="container">
+      <div style="color: seashell;">
+        <div class="serviceBlock col-md-4">
+          <h1 style="font-weight: 900;">艾爾海森</h1>
+          <a href="https://www.youtube.com/watch?v=BUfhJupH59A" target="blank"><img src="shit.jfif" style="width: 180px;height: 320px;" /></a>
+          <h3>須彌教令院現任書記官，有過人的智慧與才能。生活得自由自在，一般人基本找不到他。</h3>
+        </div>
+        <div class="serviceBlock col-md-4">
+          <h1 style="font-weight: 900;">胡桃</h1>
+          <a href="https://www.youtube.com/watch?v=vRj3YbsVTPc"target="blank"><img src="1.webp" style="width: 180px;height: 320px;" /></a>
+          <h3>「往生堂」七十七代堂主，年紀輕輕就已主掌璃月的葬儀事務</h3>
+        </div>
+        <div class="serviceBlock col-md-4">
+          <h1 style="font-weight: 900;">雷電將軍</h1>
+          <a href="https://www.youtube.com/watch?v=LLlEDp6okuE"target="blank"><img src="3.webp" style="width: 180px;height: 320px;" /></a>
+          <h3>其身為御建鳴神主尊大御所大人，許稻妻人民以亙古不變之「永恆」。</h3>
+        </div>
+      </div>
+      </div>
+    </div>
+<!--  Contact form      -->
+      <div id="phoneContact" class="phoneContact row" style="text-align: center;">
+        <div class="container">
+          <br/>
+          <br/>
+          <br/>
+          <b><h1 style="font-weight: 900; font-size: 80px; margin-top: 3px; -webkit-text-stroke: 3px rgb(145, 31, 3)" >聯絡我們</h1></b>
+        </div>
+      </div> 
+      <div class="container">               
+        <div id="contactRow" class="contactForm row">
+          <div style="color: seashell;">
+          <b><h2 style="font-weight: 900;">意見回饋區</h2></b>
+          <b><h3>填寫你的聯絡資訊與反饋</h3></b>
+          <form name="contactForm" class="form-group" action="#" method="POST">
+            <input id="formName" name="name" class="inputInline form-control" type="text" placeholder="Name" required />
+            <input id="formEmail" name="email" class="inputInline form-control" type="email" placeholder="Email" required />
+            <textarea id="formMessage" name="message" class="form-control" type="text" placeholder="Message" required></textarea>
+            <input name="submit" class="bannerBtn 1" type="submit" value="確認送出" style="font-weight: 900;"/>
+          </form>
+        </div>
+        </div>        
+      </div>
+<!--  Contact info      -->
+    <div id="contactInfo" class="row">
+      <div class="container">
+        <div class="contactStack col-md-4">
+          <h4></h4>
+          <p></p>
+          <p></p>
+        </div>
+        <div class="contactStack col-md-4">
+          
+          <a href="https://genshin.hoyoverse.com/zh-tw/home" target="blank"> 
+          <input name="submit" class="bannerBtn 2" type="submit" value="進入官網" style="font-weight: 900;">
+          </a>
+        </div>
+        <div class="contactStack col-md-4">
+          <h4></h4>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+<!--  Copyright    -->
+    <div id="copyright" class="row">
+      <div class="container">
+        <div id="socialBtn">
+          <a href="https://www.facebook.com/Genshinimpact.tw/" class="social" target="blank"><img id="facebook"></a>
+          <a href="https://www.instagram.com/genshinimpact/" class="social" target="blank"><img src="8.png"></a>
+          <a href="https://www.youtube.com/channel/UCapD-I9_3ujAA1mvk_uLmGA" class="social"target="blank"><img src="11.jpg"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
